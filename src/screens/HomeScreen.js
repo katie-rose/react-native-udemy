@@ -7,27 +7,35 @@ const HomeScreen = ({ navigation }) => {
       <Text style={styles.text}>What it do baybeeee</Text>
       <Button
         onPress={() => navigation.navigate("Components")}
-        title="Go To Components Demo"
+        title='Go To Components Demo'
       />
       <Button
-        title="Go To List Demo"
+        title='Go To List Demo'
         onPress={() => navigation.navigate("List")}
       />
       <Button
-        title="Go To Image Demo"
+        title='Go To Image Demo'
         onPress={() => navigation.navigate("Image")}
       />
       <Button
-        title="Go to Counter Demo"
+        title='Go to Counter Demo'
         onPress={() => navigation.navigate("Counter")}
       />
       <Button
-        title="Go to Color Demo"
+        title='Go to Color Demo'
         onPress={() => navigation.navigate("Color")}
       />
       <Button
-        title="Go to Square Demo"
+        title='Go to Square Demo'
         onPress={() => navigation.navigate("Square")}
+      />
+      <Button
+        title='Go to Text Demo'
+        onPress={() => navigation.navigate("Text")}
+      />
+      <Button
+        title='Go to Box Demo'
+        onPress={() => navigation.navigate("Box")}
       />
     </View>
   );
